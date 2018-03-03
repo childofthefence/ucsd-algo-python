@@ -22,4 +22,5 @@ def calc_fib(place):
 
 
 x = calc_fib(20)
-print(x)
+x1 = fib_nums[19]
+print('Calc fib to 20th place is {} and the index of 19 val is {} '.format(x, x1))
