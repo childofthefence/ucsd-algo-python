@@ -1,5 +1,8 @@
 fib_nums = [0, 1]
 
+# place is how many fib numbers, starting at 1.  The 10th fib number is thus 34
+
+
 def calc_fib(place):
 	
 	if place == 0:
