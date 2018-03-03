@@ -1,6 +1,8 @@
 fib_nums = [0, 1]
 
 # place is how many fib numbers, starting at 1.  The 10th fib number is thus 34
+# indices in fib_nums stars at 0 so to get F19 would use something like fib_nums[19]
+# and would be the 20th fib number (despite 19 being the index)
 
 
 def calc_fib(place):
@@ -19,5 +21,5 @@ def calc_fib(place):
 	return fib_nums[len(fib_nums)-1]
 
 
-x = calc_fib(10)
+x = calc_fib(20)
 print(x)
