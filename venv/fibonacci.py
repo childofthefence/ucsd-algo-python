@@ -12,10 +12,9 @@ def calc_fib(place):
 		
 			fib_nums.append(fib_nums[vals-1] + fib_nums[vals-2])
 	
-	print(fib_nums)
+	# print(fib_nums)
 	return fib_nums[len(fib_nums)-1]
 
 
-calc_fib(10)
 x = calc_fib(10)
 print(x)
